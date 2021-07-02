@@ -20,7 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('api/v1/', include('profile_api.urls')),
     path('api/v1/', include('trade.urls')),
-    path('profile/', include('pofile_api.urls')),
+    path('profile/', include('profile_api.urls')),
     path('api-auth/', include('rest_framework.urls')), # new for authentication
     path('dj-rest-auth/' , include('dj_rest_auth.urls')), # new
     path('registration/', include('dj_rest_auth.registration.urls')),
