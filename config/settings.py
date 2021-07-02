@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'dj_rest_auth.registration',
     'django.contrib.sites', # new
+    'drf_yasg',
 ]
 # authorization and authentication
 SITE_ID = 1
